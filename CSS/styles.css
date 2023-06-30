@@ -6,9 +6,8 @@
 body {
   margin: 2px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
-
 
 .navigation-bar {
   border-radius: 5px;
@@ -22,4 +21,12 @@ body {
 
 .navigation-bar > button {
   border-radius: 5px;
+}
+
+.flexbox-div_header {
+  display: flex;
+}
+
+ul.keypoint-list {
+  list-style: none;
 }
