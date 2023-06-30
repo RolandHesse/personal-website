@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 2px;
+  display: flex;
+  flex-direction: column
+}
+
+
+.navigation-bar {
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.navigation-bar > button {
+  border-radius: 5px;
+}
