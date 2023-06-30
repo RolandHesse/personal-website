@@ -29,4 +29,34 @@ body {
 
 ul.keypoint-list {
   list-style: none;
+  padding: 0;
+}
+
+.keypoint-list li::before {
+  content: "🐰  ";
+}
+
+.profile-picture {
+  
+  height: 150px;
+  width: 150px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.sticky-stuff {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: whitesmoke;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.coding-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
